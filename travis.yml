@@ -1,0 +1,12 @@
+language: bash
+before_script:
+    - echo "Before script section"
+    - chmod u+x simple-script.bash
+    
+after_script:
+    - echo "Finish"
+    
+build:
+    stage: build
+    script:
+        - ./simple-script.bash
