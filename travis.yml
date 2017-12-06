@@ -9,4 +9,4 @@ after_script:
 build:
     stage: build
     script:
-        - ./simple-script.bash
+        - ./sample.bash
